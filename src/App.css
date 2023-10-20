@@ -1,0 +1,121 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+.heading {
+  width: 35%;
+  font-size: 24px;
+}
+
+.paragraph {
+  width: 50%;
+  font-size: 20px;
+  align-self: flex-end;
+  padding-top: 41px;
+  color: rgb(244, 238, 231);
+}
+
+.innerContentChild {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.innerContentParent {
+  /* position: relative; */
+}
+
+.twentyPercent {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 30px;
+  padding-left: 10px;
+  transition: transform 350ms ease-in-out;
+  /* transform: translate(10px, 200px); */
+}
+
+.twentyText {
+  font-size: 130px;
+  font-weight: bold;
+}
+
+.twentyContent {
+  width: 55%;
+  font-size: 18px;
+}
+
+.expand {
+  font-size: 20px;
+  align-self: flex-end;
+  font-weight: 600;
+  padding-bottom: 24px;
+}
+
+.parentDiv {
+  /* width: 340px; */
+  /* height: 510px; */
+  color: white;
+  transform-origin: left;
+  overflow: hidden;
+  transition: all 200ms ease-in;
+  /* background-image: url(https://dynamicmedia.accenture.com/is/image/accenture/Accenure-Computing-Edge-Hero-3840x2160:rad-card-full?ts=1689657861878&fit=constrain&dpr=off); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 25px;
+}
+
+body {
+  background-color: black;
+}
+.childDiv {
+  width: 789px;
+}
+
+
+/* .parentDiv:hover {
+  width: 800px !important;
+  background-image: linear-gradient(
+    137deg,
+    rgb(52 50 50) 62%,
+    rgb(70 70 11 / 73%),
+    #504c4c
+  );
+} */
+/* .parentDiv:hover .twentyPercent {
+  transform: translate(10px, -50px);
+} */
